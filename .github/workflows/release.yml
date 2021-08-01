@@ -1,7 +1,7 @@
 name: CD to GitHub Pages
 on:
-  push:
-    branches: [main]
+  push
+#    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
