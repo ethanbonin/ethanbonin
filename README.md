@@ -32,3 +32,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+# Notes to write about
+- Used Enzyme to be able to shallow create and easily simulate mouse over events
+- Used Jest for the testing framework
+- Used enzyme-to-json for easy snapshot testing
+- Used Storybook to easily create uncoupled components
+- Used next.JS for creating a FAST statically generated website
+- Used Contentful to be able to update this website without having to update the code. - To use GraphQL
+- Used Github actions for CI/CD

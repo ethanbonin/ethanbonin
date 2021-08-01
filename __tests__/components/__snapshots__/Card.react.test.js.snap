@@ -1,9 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Card Should be clicked when tapped 1`] = `
+exports[`Card Should change colors when hovered 1`] = `
 <Card
   body={false}
   className=".card"
+  onClick={[MockFunction]}
   style={
     Object {
       "height": "12rem",
@@ -23,10 +24,11 @@ exports[`Card Should be clicked when tapped 1`] = `
 </Card>
 `;
 
-exports[`Card Should be clicked when tapped 2`] = `
+exports[`Card Should change colors when hovered 2`] = `
 <Card
   body={false}
   className=".card"
+  onClick={[MockFunction]}
   style={
     Object {
       "height": "12rem",
@@ -46,10 +48,11 @@ exports[`Card Should be clicked when tapped 2`] = `
 </Card>
 `;
 
-exports[`Card Should be clicked when tapped 3`] = `
+exports[`Card Should change colors when hovered 3`] = `
 <Card
   body={false}
   className=".card"
+  onClick={[MockFunction]}
   style={
     Object {
       "height": "12rem",

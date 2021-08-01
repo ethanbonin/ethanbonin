@@ -6,11 +6,12 @@ import { Card } from "react-bootstrap"
 /**
  * Primary UI component for user interaction
  */
-export const PrimaryCard = ({ label }) => {
+export const PrimaryCard = ({ label, onClick }) => {
     return (
         <Card
             style={{ width: "15rem", height: "12rem" }}
             className={[".card"].join(" ")}
+            onClick={onClick}
         >
             <Card.Text style={{textAlign: "center"}}>
                 {label.toUpperCase()}
