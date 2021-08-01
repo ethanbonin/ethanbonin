@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Should be clicked when tapped 1`] = `
+<Card
+  body={false}
+  className=".card"
+  style={
+    Object {
+      "height": "12rem",
+      "width": "15rem",
+    }
+  }
+>
+  <CardText
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    MY AWESOME CARD
+  </CardText>
+</Card>
+`;
+
+exports[`Card Should be clicked when tapped 2`] = `
+<Card
+  body={false}
+  className=".card"
+  style={
+    Object {
+      "height": "12rem",
+      "width": "15rem",
+    }
+  }
+>
+  <CardText
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    MY AWESOME CARD
+  </CardText>
+</Card>
+`;
+
+exports[`Card Should be clicked when tapped 3`] = `
+<Card
+  body={false}
+  className=".card"
+  style={
+    Object {
+      "height": "12rem",
+      "width": "15rem",
+    }
+  }
+>
+  <CardText
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    MY AWESOME CARD
+  </CardText>
+</Card>
+`;
