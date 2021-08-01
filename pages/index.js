@@ -2,6 +2,7 @@ import Head from "next/head"
 import Image from "next/image"
 import styles from "../styles/Home.module.css"
 import "bootstrap/dist/css/bootstrap.css"
+import React from 'react';
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Ethan's Website!</a>
+          Welcome to <a href="https://nextjs.org">First Version of Ethan&apos; Website!</a>
         </h1>
 
         <p className={styles.description}>
