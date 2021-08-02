@@ -1,6 +1,6 @@
 import React from "react"
 import "./faceshotimage.module.css"
-import flow from '../face-shot.png'
+import flow from '../public/face-shot.png'
 
 //  next/image does **not** support styling, so I had to use the regular <img/> component to use the css style
 export const FaceShotImage = () => {
