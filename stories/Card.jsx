@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import "./card.css"
+import styles from '../styles/card.module.css'
 import { Card } from "react-bootstrap"
 
 /**
@@ -9,8 +9,8 @@ import { Card } from "react-bootstrap"
 export const PrimaryCard = ({ label, onClick }) => {
     return (
         <Card
-            style={{ width: "15rem", height: "12rem" }}
-            className={[".card"].join(" ")}
+            style={{ width: "17rem", height: "12rem" }}
+            className={styles.card}
             onClick={onClick}
         >
             <Card.Text style={{textAlign: "center"}}>

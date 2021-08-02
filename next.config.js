@@ -1,7 +1,7 @@
-// eslint-disable-next-line no-undef
-// const isProd = process.env.NODE_ENV === 'production'
+eslint-disable-next-line no-undef
+const isProd = process.env.NODE_ENV === 'production'
 
-// eslint-disable-next-line no-undef
+eslint-disable-next-line no-undef
 module.exports = {
   // eslint-disable-next-line no-undef
   basePath: process.env.NEXT_PUBLIC_BASE_PATH,
