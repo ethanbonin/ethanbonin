@@ -6,8 +6,6 @@ import { PrimaryCard } from "@stories/Card"
 
 describe("Card", () => {
     it("Should change colors when hovered", () => {
-        const mockCallBack = jest.fn()
-
         const component = shallow(
             <PrimaryCard label={"My Awesome Card"} href={"/"}/>,
         )

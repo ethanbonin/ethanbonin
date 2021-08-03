@@ -5,7 +5,10 @@ import styles from "../styles/faceshotimage.module.css"
 export const FaceShotImage = () => {
     return (
         // eslint-disable-next-line @next/next/no-img-element
-        <img className={styles.logo} src={"https://github.com/ethanbonin/ethanbonin/raw/develop/public/face-shot.png"} alt={"face-shot"} />
+        <img
+            className={styles.logo}
+            src={"https://github.com/ethanbonin/ethanbonin/raw/develop/public/face-shot.png"} alt={"face-shot"}
+        />
     )
 }
 

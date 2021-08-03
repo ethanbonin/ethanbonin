@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterImage Ensure FooterImage changes after mouse hover 1`] = `
+<OverlayTrigger
+  defaultShow={false}
+  overlay={
+    <Tooltip
+      id="button-tooltip-2"
+      placement="right"
+    >
+      This is a sample Footer Image
+    </Tooltip>
+  }
+  placement="top"
+  trigger={
+    Array [
+      "hover",
+      "focus",
+    ]
+  }
+>
+  <img
+    alt="next Logo"
+    src="https://seeklogo.com/images/C/contentful-logo-C395C545BF-seeklogo.com.png"
+    style={
+      Object {
+        "height": "50px",
+        "objectFit": "contain",
+        "width": "50px",
+      }
+    }
+  />
+</OverlayTrigger>
+`;
+
+exports[`FooterImage Ensure FooterImage changes after mouse hover 2`] = `
+<OverlayTrigger
+  defaultShow={false}
+  overlay={
+    <Tooltip
+      id="button-tooltip-2"
+      placement="right"
+    >
+      This is a sample Footer Image
+    </Tooltip>
+  }
+  placement="top"
+  trigger={
+    Array [
+      "hover",
+      "focus",
+    ]
+  }
+>
+  <img
+    alt="next Logo"
+    src="https://seeklogo.com/images/C/contentful-logo-C395C545BF-seeklogo.com.png"
+    style={
+      Object {
+        "height": "50px",
+        "objectFit": "contain",
+        "width": "50px",
+      }
+    }
+  />
+</OverlayTrigger>
+`;
+
+exports[`FooterImage Ensure FooterImage changes after mouse hover 3`] = `
+<OverlayTrigger
+  defaultShow={false}
+  overlay={
+    <Tooltip
+      id="button-tooltip-2"
+      placement="right"
+    >
+      This is a sample Footer Image
+    </Tooltip>
+  }
+  placement="top"
+  trigger={
+    Array [
+      "hover",
+      "focus",
+    ]
+  }
+>
+  <img
+    alt="next Logo"
+    src="https://seeklogo.com/images/C/contentful-logo-C395C545BF-seeklogo.com.png"
+    style={
+      Object {
+        "height": "50px",
+        "objectFit": "contain",
+        "width": "50px",
+      }
+    }
+  />
+</OverlayTrigger>
+`;
