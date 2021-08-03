@@ -4,8 +4,6 @@ import { shallow } from "enzyme"
 import { Jobs } from "@stories/Jobs";
 import data from '@stories/jobHistoryData'
 
-import toJson from "enzyme-to-json";
-
 describe("FooterImage", () => {
     it("Ensure FooterImage changes after mouse hover", async () => {
         const component = shallow(

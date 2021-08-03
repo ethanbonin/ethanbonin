@@ -1091,6 +1091,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@7.14.0":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.13.8", "@babel/runtime@^7.14.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.14.8"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.14.8.tgz"
@@ -10081,6 +10088,14 @@ raw-loader@^4.0.2:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
+react-animated-tree-v2@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-animated-tree-v2/-/react-animated-tree-v2-1.0.0.tgz#1585ef3b82aac71d386271b71b41255763ec73f3"
+  integrity sha512-qERw9a107YCwfCzFCgMOHFWoGJ8hB+jHE6hTuI63WRjG/RZpB0o3k4nCyOZBoc2QYPp6B0v40jEGNjprBDJC3w==
+  dependencies:
+    "@babel/runtime" "7.14.0"
+    react-spring "^5.3.7"
+
 react-bootstrap@^2.0.0-beta.4:
   version "2.0.0-beta.4"
   resolved "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-2.0.0-beta.4.tgz"
@@ -10286,6 +10301,13 @@ react-sizeme@^3.0.1:
     invariant "^2.2.4"
     shallowequal "^1.1.0"
     throttle-debounce "^3.0.1"
+
+react-spring@^5.3.7:
+  version "5.9.2"
+  resolved "https://registry.yarnpkg.com/react-spring/-/react-spring-5.9.2.tgz#4c4e048ffce24755eaa60acd2f3fe4a3d686ef16"
+  integrity sha512-ZDCBm4OaYuuSER3k7EELn9AKGs98HI23qMRL93zUUw6AlyBmqoU+eAfouGRx47gVkZkH+hArJXBHf4UGYpH9Og==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
 
 react-syntax-highlighter@^13.5.3:
   version "13.5.3"
