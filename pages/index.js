@@ -24,18 +24,18 @@ export const Home = () => (
           <code className={styles.code}>software engineer</code>
         </p>
 
-        <div>
+        <div style={{paddingTop: '10px'}}>
           <FaceShotImage />
         </div>
 
         <div className={styles.grid}>
-          <PrimaryCard label={"Work History"} />
+          <PrimaryCard label={"Work History"} href={"/history"} />
 
-          <PrimaryCard label={"Contact"} />
+          <PrimaryCard label={"Contact"} href={"/contact"}/>
 
-          <PrimaryCard label={"Projects"} />
+          <PrimaryCard label={"Projects"} href={"/projects"}/>
 
-          <PrimaryCard label={"About Me"} />
+          <PrimaryCard label={"About Me"} href={"/about"}/>
         </div>
       </main>
 

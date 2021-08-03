@@ -1,7 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types";
 import {OverlayTrigger, Tooltip} from "react-bootstrap";
-import nextLogo from '../public/next-logo.png'
 
 
 export const FooterImage = ({src, alt, label, size}) => {
@@ -41,7 +40,7 @@ FooterImage.propTypes = {
 }
 
 FooterImage.defaultProps = {
-    src: nextLogo,
+    src: 'https://seeklogo.com/images/C/contentful-logo-C395C545BF-seeklogo.com.png',
     alt: "next Logo",
     label: "This is a sample Footer Image",
     size: "50px",

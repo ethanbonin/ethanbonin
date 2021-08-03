@@ -1,24 +1,20 @@
-import fs from '../public/next-logo.png'
-import cf from '/public/contentful-logo.png'
-import rimg from '/public/react-logo.png'
-
 export let footerData = [
     {
-        src: '../public/next-logo.png',
+        src: 'https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png',
         alt: "next-logo",
         label: "Okay this is a description",
-        size: "25px"
+        size: "50px"
     },
     {
-        src: '../public/contentful-logo.png',
+        src: 'https://seeklogo.com/images/C/contentful-logo-C395C545BF-seeklogo.com.png',
         alt: "next-logo",
         label: "Okay this is a description",
-        size: "35px"
+        size: "50px"
     },
     {
-        src: '../public/react-logo.png',
+        src: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
         alt: "next-logo",
         label: "Okay this is a description",
-        size: "25px"
+        size: "50px"
     }
 ]
