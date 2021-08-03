@@ -1,73 +1,79 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Card Should change colors when hovered 1`] = `
-<Card
-  body={false}
-  className=".card"
-  onClick={[MockFunction]}
-  style={
-    Object {
-      "height": "12rem",
-      "width": "15rem",
-    }
-  }
+<Link
+  href="/"
 >
-  <CardText
+  <Card
+    body={false}
     style={
       Object {
-        "textAlign": "center",
+        "height": "12rem",
+        "width": "17rem",
       }
     }
   >
-    MY AWESOME CARD
-  </CardText>
-</Card>
+    <CardText
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      MY AWESOME CARD
+    </CardText>
+  </Card>
+</Link>
 `;
 
 exports[`Card Should change colors when hovered 2`] = `
-<Card
-  body={false}
-  className=".card"
-  onClick={[MockFunction]}
-  style={
-    Object {
-      "height": "12rem",
-      "width": "15rem",
-    }
-  }
+<Link
+  href="/"
 >
-  <CardText
+  <Card
+    body={false}
     style={
       Object {
-        "textAlign": "center",
+        "height": "12rem",
+        "width": "17rem",
       }
     }
   >
-    MY AWESOME CARD
-  </CardText>
-</Card>
+    <CardText
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      MY AWESOME CARD
+    </CardText>
+  </Card>
+</Link>
 `;
 
 exports[`Card Should change colors when hovered 3`] = `
-<Card
-  body={false}
-  className=".card"
-  onClick={[MockFunction]}
-  style={
-    Object {
-      "height": "12rem",
-      "width": "15rem",
-    }
-  }
+<Link
+  href="/"
 >
-  <CardText
+  <Card
+    body={false}
     style={
       Object {
-        "textAlign": "center",
+        "height": "12rem",
+        "width": "17rem",
       }
     }
   >
-    MY AWESOME CARD
-  </CardText>
-</Card>
+    <CardText
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    >
+      MY AWESOME CARD
+    </CardText>
+  </Card>
+</Link>
 `;

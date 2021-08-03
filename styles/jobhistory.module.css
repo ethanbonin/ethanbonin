@@ -1,0 +1,38 @@
+/* here the rules for small windows */
+@media (max-width: 500px) {
+    .div {
+        float: left !important;
+        width: 100%;
+        border: 2px solid #d0d0d0;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .code {
+        background: #fafafa;
+        border-radius: 5px;
+        padding: 0.35rem;
+        font-size: 0.70rem;
+        margin: 0.3rem;
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+        Bitstream Vera Sans Mono, Courier New, monospace;
+    }
+}
+
+.div {
+    float: left !important;
+    width: 100%;
+    border: 2px solid #d0d0d0;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.code {
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0.35rem;
+    font-size: 0.70rem;
+    margin: 0.3rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}

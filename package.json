@@ -1,21 +1,28 @@
 {
   "name": "ethanbonin-website",
+  "homepage": "https://ethanbonin.github.io/ethanbonin/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "5.0.2",
+    "gh-pages": "^3.2.3",
     "next": "11.0.1",
+    "next-images": "^1.8.1",
     "react": "17.0.2",
     "react-bootstrap": "^2.0.0-beta.4",
+    "react-chrono": "^1.10.1",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
