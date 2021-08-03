@@ -1,8 +1,8 @@
 [
   {
-    "project": "textmethat",
+    "project": "Text Me That",
     "description": "Text Me That is an iOS exclusive product. It sends reminders via text messages. It helps thousands of customers a month with staying on task. I built this app back in 2018 to personally help me to never miss reminders again.",
-    "image": null,
+    "image": "https://raw.githubusercontent.com/ethanbonin/ethanbonin/develop/public/tmtpw.png",
     "website": "https://textmethat.io",
     "frontend": {
       "languages": [
@@ -36,8 +36,9 @@
     }
   },
   {
-    "project": "rallista",
+    "project": "Rallista",
     "description": "Rallista is navigation for enthusiasts. The owner of this app has seem much success with his application and continues to expand it's network every year. I personally helped with some of the features of this application. Biggest achievement to date has been becoming the one of the official sponsors of Hagerty, May 2021.",
+    "image": "https://raw.githubusercontent.com/ethanbonin/ethanbonin/develop/public/rallistapw.png",
     "website": "https://rallista.app",
     "frontend": {
       "languages": [
@@ -53,6 +54,7 @@
   },
   {
     "project": "Safe Spending",
+    "image": "https://raw.githubusercontent.com/ethanbonin/ethanbonin/develop/public/sspw.png",
     "description": "A couple engineers and I saw a need in the fintech space. We rebuilt a banking application that was shut down from big corp because it was bought out. This app helps users stay on budget by creating envelopes and assigning transactions to those envelopes. We easily help the user connect their bank account so it can be completely automated.",
     "website": null,
     "frontend": {
@@ -85,9 +87,10 @@
     }
   },
   {
-    "project": "website",
+    "project": "This Website",
     "description": "This website was built as a memento to myself. It's to remind me of the journey I have been on to get the place that I am now. I made this codebase open so it can reviewed at anytime by anybody.",
-    "website": "https://ethanbonin.github.io",
+    "image": null,
+    "website": "https://github.com/ethanbonin/ethanbonin",
     "frontend": {
       "languages": [
         "Javascript"
