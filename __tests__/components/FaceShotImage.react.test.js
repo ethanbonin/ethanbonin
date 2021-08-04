@@ -9,6 +9,6 @@ describe("FaceShotImage", () => {
             <FaceShotImage />,
         )
         expect(component.props().src)
-            .toBe('https://github.com/ethanbonin/ethanbonin/raw/develop/public/face-shot.png')
+            .toBe('https://raw.githubusercontent.com/ethanbonin/ethanbonin/develop/public/face-shot.png')
     })
 })
