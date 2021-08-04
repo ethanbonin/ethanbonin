@@ -1,0 +1,25 @@
+/* To target the topic*/
+.treeview > span {
+    font-weight: bold;
+}
+
+
+/*To target the category*/
+.treeview > div > div > span {
+    font-weight: 600;
+    color: dimgray;
+}
+
+/*To target the specific skill inside the three*/
+.treeview > div > div > div > div > span {
+    vertical-align: middle;
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0.6rem;
+    font-size: 0.9rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    color: #d63384;
+    text-align: left !important;
+    font-weight: normal;
+}
+

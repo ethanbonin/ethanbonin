@@ -11,8 +11,9 @@ export const PrimaryCard = ({ label, href, onClick }) => {
     return (
         <Link href={href}>
             <Card
+                bsPrefix={"special"}
                 style={{ width: "17rem", height: "12rem" }}
-                className={styles.card}
+                className={styles.special}
                 onClick={onClick}
             >
                 <Card.Text style={{textAlign: "center"}}>

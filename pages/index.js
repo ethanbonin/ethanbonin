@@ -5,11 +5,12 @@ import React from 'react';
 import {PrimaryCard} from "../stories/Card";
 import {Footer} from "../stories/Footer";
 import {FaceShotImage} from "../stories/FaceShotImage";
+import routes from '../routes'
 
 export const Home = () => (
     <div className={styles.container}>
       <Head>
-        <title>Ethan Bonin's Website</title>
+        <title>Ethan Bonin&apos;s Website</title>
         <meta name="description" content="Used to show ethan's resume." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -29,13 +30,11 @@ export const Home = () => (
         </div>
 
         <div className={styles.grid}>
-          <PrimaryCard label={"Work History"} href={"/history"} />
+          <PrimaryCard label={"Work History"} href={routes.history} />
 
-          <PrimaryCard label={"Contact"} href={"/contact"}/>
+          <PrimaryCard label={"Projects"} href={routes.projects}/>
 
-          <PrimaryCard label={"Projects"} href={"/projects"}/>
-
-          <PrimaryCard label={"About Me"} href={"/about"}/>
+          <PrimaryCard label={"About Me"} href={routes.about}/>
         </div>
       </main>
 
