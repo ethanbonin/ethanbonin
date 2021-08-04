@@ -8,4 +8,6 @@ const routes = {
     history: prefix + "/history"
 }
 
+console.log(routes)
+
 export default routes
