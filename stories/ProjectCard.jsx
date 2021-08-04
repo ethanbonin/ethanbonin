@@ -3,11 +3,9 @@ import styles from '../styles/projectcard.module.css'
 import { Card } from "react-bootstrap";
 import PropTypes from "prop-types";
 
-
-export const ProjectCard = ({ project }) => {
-
+export const ProjectCard = ({ project, callBack }) => {
     const handleOnClick = () => {
-        console.log("Clicked")
+        callBack(project.project)
     }
 
     return (
@@ -66,7 +64,11 @@ ProjectCard.propTypes = {
             languages: PropTypes.arrayOf(PropTypes.string),
             frameworks: PropTypes.arrayOf(PropTypes.string)
         }),
-    }).isRequired
+    }).isRequired,
+    /**
+     * The function to call back which card
+     */
+    callBack: PropTypes.func
 };
 
 

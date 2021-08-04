@@ -7,7 +7,7 @@ export const FaceShotImage = () => {
         // eslint-disable-next-line @next/next/no-img-element
         <img
             className={styles.logo}
-            src={"https://github.com/ethanbonin/ethanbonin/raw/develop/public/face-shot.png"} alt={"face-shot"}
+            src={"https://raw.githubusercontent.com/ethanbonin/ethanbonin/develop/public/face-shot.png"} alt={"face-shot"}
         />
     )
 }

@@ -31,8 +31,6 @@ export const Home = () => (
         <div className={styles.grid}>
           <PrimaryCard label={"Work History"} href={"/history"} />
 
-          <PrimaryCard label={"Contact"} href={"/contact"}/>
-
           <PrimaryCard label={"Projects"} href={"/projects"}/>
 
           <PrimaryCard label={"About Me"} href={"/about"}/>

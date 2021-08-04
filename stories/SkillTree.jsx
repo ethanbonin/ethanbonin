@@ -4,7 +4,6 @@ import styles from '../styles/skilltree.module.css'
 import {Col, Container, Row} from "react-bootstrap";
 import PropTypes from "prop-types";
 
-
 export const SkillTree = ({project}) => {
     const SKT = props => <Tree {...props} springConfig={config} />
 
@@ -29,7 +28,7 @@ export const SkillTree = ({project}) => {
 
     function renderFrontend() {
         return (
-            <SKT content="Frontend" className={styles.treeview} open={true}>
+            <SKT content="Frontend" className={styles.treeview} open={true} style={{}}>
                 <SKT content="Languages" open={true}>
                     {createSkillCell(project.frontend.languages)}
                 </SKT>
