@@ -44,7 +44,7 @@ I like the view web development like the wild-wild-west. If you have no law, the
 [Next.JS](https://nextjs.org) was awesome for this too. It will not compile / export if you do not take care of all your warnings and errors before hand!
 
 Lastly, when using a linter, it's important to keep on task before pushing up commits. SOMETIMES you can forget to `lint` your code before you push.
-That is why I use [pre-commit](https://pre-commit.com) for running commands before I commit any of my work. So before I actually "git add .", 
+That is why I use [pre-commit](https://pre-commit.com) for running commands before I commit any of my work. So before I actually `git commit -m`, 
 it runs a lint for me to ensure that I have fixed all issues first! 
 
 ## CI / CD
