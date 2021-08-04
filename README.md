@@ -18,29 +18,29 @@ It will also be a reality check to see if I have become stagnate.
     -
     - I used react for my front-end framework. I found it very compatible for Storybook and Next.Js. 
       React is one of those skills that you will never be able to depart from, mostly because you will need a website version of any application you ever build.
-      I'm a huge fan of declarative frameworks. It takes less time to build the UI components and gives me more time to think of fun and innovated things.
+      I'm a huge fan of declarative frameworks. It takes less time to build the UI components and gives me more time to think of fun and innovative features.
 - [Next.JS](https://nextjs.org)
     -
     - I've used Gatsby in the past for statically generated websites, but I wanted to gain the experience of using Next.JS.
-    One of the major perks that I could see myself using Next.JS in my future web projects is the Server Side Rendering
+    I find using Server Side Rendering from Next.JS will be a huge help in my more complex projects.
       (SSR) feature. 9 times out of 10 I need a backend server for my application, so Next.JS will work perfect for that.
       
 - [Storybook](https://storybook.js.org)
     -
     - This came at recommendation of a company that I interviewed with. I've seen Storybook used in the past, but it has seriously changed the game of 
     React development for me. It is __always__ the goal to have simple and decoupled React components as possible. 
-      With Storybook, it always gives you a bird eye view of your project components and ensure that your components are easily testable.
+      With Storybook, it always gives you a birds eye view of your project components and ensure that they are easily testable.
       Storybook also creates auto-generated documentation for lazy developers! The less I have to write, THE BETTER.
       
 ## Testing
-For testing, I used kept it as simple as possible. I used [Jest]("https://jestjs.io") for an easy (basically near 0 config) testing framework.
-I used [enzyme]("https://enzymejs.github.io/enzyme/") to create the components independently for snapshot testing. 
-I mostly used enzyme because it had easily functionality for using the manipulating the components into different states. [Also, the docs are fantastic.](https://enzymejs.github.io/enzyme/) 
+For testing, I kept it as simple as possible. I used [Jest](https://jestjs.io) for an easy (basically near 0 config) testing framework.
+I used [Enzyme](https://enzymejs.github.io/enzyme/) to create the components independently for snapshot testing. 
+I mostly used Enzyme because it had easy functionality for manipulating the components into different states. [Also, the docs are fantastic.](https://enzymejs.github.io/enzyme/) 
 
 ## Code Quality
-I like to set up [eslint](https://eslint.org) for ALL my web projects.Having [eslint](https://eslint.org) is a game changer for code quality.
+I like to set up [eslint](https://eslint.org) for all my web projects.Having [eslint](https://eslint.org) is a game changer for code quality.
 When working with many developers: the stricter the rules, the better. ( <**ahem**> - That is why static languages are the best too - <**/ahem**>)
-I like the view web development like the wild-wild-west. If you have no law, then it's going to be killer (for the bug fixes and code readability in the future).
+I like to view web development like the wild-wild-west. If you have no law, then it's going to be killer (for the bug fixes and code readability in the future).
 [Next.JS](https://nextjs.org) was awesome for this too. It will not compile / export if you do not take care of all your warnings and errors before hand!
 
 Lastly, when using a linter, it's important to keep on task before pushing up commits. SOMETIMES you can forget to `lint` your code before you push.
