@@ -38,7 +38,7 @@ export const About = () => (
                             , <a className={styles.a} href={"https://github.com/features/actions"}>Github Actions</a> and <a className={styles.a} href={"https://cloud.google.com/build"}>Google Cloud Build</a>.
                         </p>
                         <p>
-                            A lot of that was boring jargon. I&apos;m sure you&apos;re really wondering what I&apos;m like in real life. Here's a little flavor.
+                            A lot of that was boring jargon. I&apos;m sure you&apos;re really wondering what I&apos;m like in real life. Here&apos;s a little flavor.
                         </p>
                         <p>
                             Relationship status?

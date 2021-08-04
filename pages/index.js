@@ -9,7 +9,7 @@ import {FaceShotImage} from "../stories/FaceShotImage";
 export const Home = () => (
     <div className={styles.container}>
       <Head>
-        <title>Ethan Bonin's Website</title>
+        <title>Ethan Bonin&apos;s Website</title>
         <meta name="description" content="Used to show ethan's resume." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
