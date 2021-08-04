@@ -40,7 +40,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Used enzyme-to-json for easy snapshot testing
 - Used Storybook to easily create uncoupled components
 - Used next.JS for creating a FAST statically generated website
-- Used Contentful to be able to update this website without having to update the code. - To use GraphQL
 - Used Github actions for CI/CD
 - Talk about CSS.module styling `skill.module.css`
 - Used JSON file format for (projectSkills.JSON)
