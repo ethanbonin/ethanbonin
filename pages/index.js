@@ -5,7 +5,7 @@ import React from 'react';
 import {PrimaryCard} from "../stories/Card";
 import {Footer} from "../stories/Footer";
 import {FaceShotImage} from "../stories/FaceShotImage";
-import routes from './routes'
+import routes from '../routes'
 
 export const Home = () => (
     <div className={styles.container}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Navbar, Nav} from "react-bootstrap";
-import routes from '../pages/routes/index'
+import routes from '../routes/index'
 
 export const Header = () => (
     <Navbar >
