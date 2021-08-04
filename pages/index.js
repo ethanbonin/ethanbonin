@@ -5,7 +5,7 @@ import React from 'react';
 import {PrimaryCard} from "../stories/Card";
 import {Footer} from "../stories/Footer";
 import {FaceShotImage} from "../stories/FaceShotImage";
-import routes from '../routes'
+import {withoutPrefixRoutes} from '../routes'
 
 export const Home = () => (
     <div className={styles.container}>
@@ -30,11 +30,11 @@ export const Home = () => (
         </div>
 
         <div className={styles.grid}>
-          <PrimaryCard label={"Work History"} href={routes.history} />
+          <PrimaryCard label={"Work History"} href={withoutPrefixRoutes.history} />
 
-          <PrimaryCard label={"Projects"} href={routes.projects}/>
+          <PrimaryCard label={"Projects"} href={withoutPrefixRoutes.projects}/>
 
-          <PrimaryCard label={"About Me"} href={routes.about}/>
+          <PrimaryCard label={"About Me"} href={withoutPrefixRoutes.about}/>
         </div>
       </main>
 
