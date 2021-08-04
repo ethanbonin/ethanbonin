@@ -8,6 +8,11 @@ const routes = {
     history: prefix + "/history"
 }
 
-console.log(routes)
+export const withoutPrefixRoutes = {
+    index: "/",
+    about: "/about",
+    projects: "/projects",
+    history: "/history"
+}
 
 export default routes
