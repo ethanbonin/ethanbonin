@@ -1,6 +1,6 @@
 ## Getting Started
 
-Run the development server or [click here to see the production version website]("https://ethanbonin.github.io/ethanbonin").
+Run the development server or click here to see [the production version website](https://ethanbonin.github.io/ethanbonin).
 
 ```bash
 yarn dev
